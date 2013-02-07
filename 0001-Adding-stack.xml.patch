@@ -1,0 +1,34 @@
+From 12017c9278bbcc9a47dcd2c327410014691b8664 Mon Sep 17 00:00:00 2001
+From: William Woodall <wjwwood@gmail.com>
+Date: Fri, 1 Feb 2013 11:29:29 -0800
+Subject: [PATCH] Adding stack.xml
+
+---
+ stack.xml |   15 +++++++++++++++
+ 1 file changed, 15 insertions(+)
+ create mode 100644 stack.xml
+
+diff --git a/stack.xml b/stack.xml
+new file mode 100644
+index 0000000..022f6f2
+--- /dev/null
++++ b/stack.xml
+@@ -0,0 +1,15 @@
++<stack>
++  <name>urdfdom_headers</name>
++  <version>0.2.1</version>
++  <description>Header files for core data structures used by URDF parsers</description>
++  <author email="johnhsu@willowgarage.com">John Hsu</author>
++  <maintainer email="johnhsu@willowgarage.com">John Hsu</maintainer>
++  <license>BSD</license>
++  <copyright>Willow Garage</copyright>
++  <url>http://www.ros.org/wiki/urdf</url>
++
++  <build_depends>boost</build_depends>
++  <build_depends>cmake</build_depends>
++
++  <depends>boost</depends>
++</stack>
+-- 
+1.7.9.5
+
